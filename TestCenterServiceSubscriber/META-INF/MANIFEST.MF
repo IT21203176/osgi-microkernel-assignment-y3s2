@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: TestCenterServiceSubscriber
+Bundle-SymbolicName: TestCenterServiceSubscriber
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: testcenterservicesubscriber.testCenterServiceActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-18
+Automatic-Module-Name: TestCenterServiceSubscriber
+Import-Package: org.osgi.framework;version="1.3.0",
+ testcenterservicepublisher
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: osgi
